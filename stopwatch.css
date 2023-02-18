@@ -1,0 +1,119 @@
+*{
+     margin: 3px;
+     padding: 9px;
+    
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(3975767.webp);
+    /* background-position: center; */
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+h1 ,p{
+    color: white;
+    top: 50%;
+}
+.container
+{
+    padding: 1rem;
+    max-width: 350px;
+    background-color: #0000007d;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    background-color: rgba(0,0 green,0 blue,6);
+    position: absolute;
+    top: 30%;
+
+}
+/* .container
+{
+    height: 100px;
+    width: 100px;
+    background-color: #0000007d;
+    color:#fff;
+    border-radius:5px;
+    display: flex;
+    flex-direction: column;
+
+} */
+#tens
+{
+   
+    margin-bottom: 20%;
+    font-size: 2rem;
+    color: white;
+}
+#seconds
+{
+  margin-bottom: 20%;
+    font-size: 2rem;
+    color: white;
+}
+button
+{
+    padding: 0,4rem 1rem;
+    margin: 0 0.2rem;
+    border-radius: 10px;
+    border:1px solid #f8f8f8;
+  
+
+
+}
+button:hover{
+    background-color: rgba(red, green, blue, 4);
+    color: rgb(113, 69, 150);
+}
+#start
+{
+    font-size: 20px;
+    background-color: lightslategray;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20px;
+   
+}
+#Stop
+{
+    font-size: 20px;
+    background-color: lightslategray;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    text-align: center;
+}
+#Reset
+{
+    font-size: 20px;
+    background-color: lightslategray;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20px;
+   
+}
+#comma
+{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+@media screen and (max-width:600px)
+{
+    h1,p{
+        font-size: 36px;
+        line-height: 50px;
+
+    }
+    .container
+    {
+        background-image: url(3975767.webp);
+        background-size: 600px;
+    }
+
+
+
+
+}
